@@ -56,7 +56,18 @@ public class AppController {
         model.addAttribute("colegio",c);
         return "informacion.jsp";
     }
-
+    @GetMapping("/sobreNosotros")
+    public String sobreNosotros(){
+        return "sobreNosotros.jsp"
+    }
+    @GetMapping("/comentarios")
+    public String comentarios(@ModelAttribute Comentario comentario){
+        return "comentarios.jsp"
+    }
+    @PostMapping("/comentarios)
+    public String enviarComentario(@Valid @ModelAttribute (name="comentario") Comentario comentario, BindingResult result){
+        return "redirect:/comentarios"
+    }
 
 
 }
