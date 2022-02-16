@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busqueda de Establecimientos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+<body>
+    <header><h1>Búsqueda de Establecimientos</h1>
+        </header>
+        <div class="audio">
+            <audio controls>
+                <source src="audio.ogg" type="audio/ogg">
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+    <h4>Por Regiones:</h4>
+    <select class="regiones">
+        <option value="Antofagasta">Antofagasta</option>
+        <option value="Arica y Parinacota">Arica y Parinacota</option>
+        <option value="Atacama">Atacama</option>
+        <option value="Aysen del General Carlos Ibañez del Campo">Aysen del General Carlos Ibañez del Campo</option>
+        <option value="Coquimbo">Coquimbo</option>
+        <option value="La Araucania">La Araucania</option>
+        <option value="Los Lagos">Los Lagos</option>
+        <option value="Los Ríos">Los Ríos</option>
+        <option value="Magallanes y de la Antártica Chilena">Magallanes y de la Antártica Chilena</option>
+        <option value="Tarapaca">Tarapaca</option>
+        <option value="Valparaíso">Valparaíso</option>
+        <option value="Del BioBío">Del BioBío</option>
+        <option value="Libertador Bernardo O'Higgins">Libertador Bernardo O'Higgins</option>
+        <option value="Del Maule">Del Maule</option>
+        <option value="Metropolitana de Santiago">Metropolitana de Santiago</option>
+    </select>
+    
+    <h4>Seleccione Comuna:</h4>
+    <select class="comuna">
+        <option value="-seleccionar-">-seleccionar-</option>
+        <option value="Alhue">Alhue</option>
+        <option value="Buin">Buin</option>
+        <option value="Calera de Tango">Calera de Tango</option>
+        <option value="Cerrillos">Cerrillo</option>
+        <option value="Cerro Navia">Cerro Navia"</option>
+        <option value="Colina">Colina</option>
+        <option value="Conchalí">Conchalí</option>
+        <option value="Curacaví">Curacaví</option>
+        <option value="El Bosque">El Bosque</option>
+        <option value="El Monte">El Monte</option>
+        <option value="Estacion Central">Estacion Central</option>
+        <option value="Huechuraba">Huechuraba</option>
+        <option value="Independencia">Independencia</option>
+        <option value="Isla de Maipo">Isla de Maipo</option>
+        <option value="La Cisterna">La Cisterna</option>
+        <option value="La Florida">La Florida</option>
+        <option value="La Granja">La Granja</option>
+        <option value="La Pintana">La Pintana</option>
+        <option value="La Reina">La Reina</option>
+        <option value="Lampa">Lampa</option>
+        <option value="Las Condes">Las Condes</option>
+        <option value="Lo Barnechea">Lo Barnechea</option>
+        <option value="Lo Espejo">Lo Espejo</option>
+        <option value="Lo Prado">Lo Prado</option>
+        <option value="Macul">Macul</option>
+        <option value="Maipú">Maipú</option>
+        <option value="María Pinto">María Pinto</option>
+        <option value="Melipilla">Melipilla</option>
+        <option value="Ñuñoa">Ñuñoa</option>
+        <option value="Padre Hurtado">Padre Hurtado</option>
+        <option value="Paine">Paine</option>
+        <option value="Pedro Aguirre Cerda">Pedro Aguirre Cerda</option>
+        <option value="Peñaflor">Peñaflor</option>
+        <option value="Pirque">Pirque</option>
+        <option value="Providencia">Providencia</option>
+        <option value="Pudahuel">Pudahuel</option>
+        <option value="Padre Hurtado">Padre Hurtado</option>
+        <option value="Puente Alto">Puente Alto</option>
+        <option value="Quilicura">Quilicura</option>
+        <option value="Quinta Normal">Quinta Normal</option>
+        <option value="Recoleta">Recoleta</option>
+        <option value="Renca">Renca</option>
+        <option value="San Bernardo">San Bernardo</option>
+        <option value="San Joaquín">San Joaquín</option>
+        <option value="San Jose de Maipo">San Jose de Maipo</option>
+        <option value="San Miguel">San Miguel</option>
+        <option value="San Pedro">San Pedro</option>
+        <option value="San Ramón">San Ramón</option>
+        <option value="Santiago">Santiago</option>
+        <option value="Talagante">Talagante</option>
+        <option value="TilTil">TilTil</option>
+        <option value="Vitacura">Vitacura</option>
+        <br>
+        <input type="submit" value="Buscar" href="infoEscuelas/infoEscuelas.html">
+    </select>
+    
+    <footer>
+        <div class="iconos">
+            <a href="index.html" ><i class="fa-solid fa-house"> inicio</i></a>
+            <a href="busqueda/busqueda.html" ><i class="fa-solid fa-circle-info"> informacion</i></a>
+            <a href="#" ><i class="fa-regular fa-money-bill-1"> donaciones</i></a>
+            <a href="#" ><i class="fa-solid fa-user-group"> sobre nosotros</i></a>
+            <a href="#" ><i class="fa-regular fa-comment-dots"> comentarios</i></a>
+        </div>
+    </footer>
+
+</body>
+</html>

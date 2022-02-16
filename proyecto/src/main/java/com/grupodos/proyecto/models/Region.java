@@ -17,7 +17,6 @@ public class Region {
     @Column(unique = true,nullable = false)
     private String nombre;
     @OneToMany(mappedBy="region", fetch = FetchType.EAGER)
-    private List<Colegio> colegios;
-
+    private List<Comuna> comunas;
 
 }

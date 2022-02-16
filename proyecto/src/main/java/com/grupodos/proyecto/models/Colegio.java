@@ -30,9 +30,6 @@ public class Colegio {
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name="comuna_id")
     private Comuna comuna;
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name="region_id")
-    private Region region;
     private String privacidad;
     private String sostenedor;
     private String enseñanzas;

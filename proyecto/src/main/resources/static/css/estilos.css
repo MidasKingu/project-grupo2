@@ -1,0 +1,212 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 80px;
+    color: #552244;
+    font-family: 'Rowdies', cursive;
+}
+.textoborde{
+    -webkit-text-fill-color: rgb(50, 205, 197);
+    -webkit-text-stroke: 0.5px black;
+    font-size: 90px;
+}
+.descripcion{
+    text-align: center;
+    padding: 5px 25px;
+    color: rgb(53, 53, 53);
+    font-size: 30px;
+    background: #FDEFF4;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0px;
+    background: linear-gradient(70deg, rgb(222, 206, 228), #78DEC7);
+}
+.card__perfil{
+    width: 310px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgb(12, 16, 51);
+    border: solid rgba(11, 14, 11, 0) 2px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+.card__perfil:hover{
+    border: solid rgb(3, 133, 255) 2px;
+}
+.card__perfil:hover img{
+    transform: rotate(0);
+}
+img{
+    width: 140px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(216, 216, 216);
+    transform: rotate(-30deg);
+    transition: all .3s;
+}
+.card__nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+}
+hr{
+    width: 100%;
+    height: 4px;
+    background: rgb(223, 221, 221);
+
+}
+.card__button::after{
+    text-align: center;
+}
+.card__button:hover{
+    opacity: .7;
+
+}
+.enlace{
+    background: #FE91CA;
+    padding: 8px 20px;
+    color: white;
+    text-decoration: none;
+}
+audio{
+    display: block;
+    padding: 10px;
+    position: relative;
+    bottom: 68px;
+    left: 70px;
+}
+footer{
+    display: block;
+    background-image: linear-gradient(#698474,#B7EFCD,#96D1C7);
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 93%;
+}
+audio{
+    width: 260px;
+    height: 50px;
+}
+/* .iconos{
+    text-decoration-color: rgb(253, 254, 255);
+     padding-top: 8px;
+} */
+.enlaces button{
+    background-color: none;
+}
+p{
+    text-align: center;
+}
+strong{
+    font-size: large;
+}
+header{
+    width: 100%;
+    color: black;
+    height: 300px;
+    background: url('https://images-ext-2.discordapp.net/external/4fMYJHY1FbWzVpRn8i9PQE3OeVl3LYuWOtWnkixgYqg/https/cdn.pixabay.com/photo/2018/03/03/06/26/girl-3194977_960_720.jpg?width=772&height=515')no-repeat center center/cover;
+    /* background: url('./show\ case.jpeg' ) no-repeat center center/cover;  */
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+a{
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    background: none;
+}
+a:hover{
+    border-bottom: 2px solid #004445;
+}
+.barra{
+    border: 10px solid #30475E;
+    font-size: 15px;
+    background: #FDEFF4;
+    height: 100px;
+    width: 800px;
+}
+/* .button{
+    background-color: none;
+} */
+
+.fa-house {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    padding-left: 0px;
+    text-decoration: none;
+}
+
+.fa-circle-info {
+    color: rgb(8, 8, 8);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.fa-money-bill-1 {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.fa-user-group {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.fa-comment-dots {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.iconos {
+    margin: 10px 10px 10px 10px;
+    padding-right: 70px;
+    text-decoration: none;
+    background: none;
+}
+.contenedor{
+    background: linear-gradient(70deg, rgb(222, 206, 228), #78DEC7);
+}
+.hr1{
+    width: 100%;
+    height: 4px;
+    background: rgb(223, 221, 221);
+    margin: 20px 5px;
+}
+@media only screen and (max-width: 768px) {
+    main{
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    main {
+        margin-bottom: 3.6%;
+    }
+}
+i{
+    background: none;
+    padding: none;
+}
+main{
+    background: linear-gradient(70deg, rgb(222, 206, 228), #78DEC7);
+}

@@ -1,0 +1,68 @@
+#modo{
+    display: block;
+    font-size: 41px;
+    cursor: pointer;
+    width: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #000000;
+    margin-bottom: 10px;
+}
+
+.dark{
+    background-color: #000000;
+}
+
+.dark h1{
+    padding: 10px;
+    font-size: 80px;
+    color: #000000;
+}
+.dark .card{
+    background: #000000;
+}
+.dark .descripcion{
+    color: rgb(255, 255, 255);
+}
+.dark #modo{
+    color: rgb(255, 255, 255);
+}
+.dark .card__perfil{
+    background: rgb(15, 39, 46);
+    box-shadow: 1px 1px 5px rgb(240, 240, 241);
+    border: solid rgba(255, 255, 255, 0) 2px;
+    border-radius: 10px;
+}
+.dark p{
+    color: rgb(211, 211, 211);
+}
+.dark h2{
+    color: white;
+}
+.dark .enlace{
+    background-color: rgb(61, 114, 114);
+}
+.dark .card__perfil:hover{
+    border: solid green 2px;
+}
+#seccion1{
+    background-image: url(https://images-ext-2.discordapp.net/external/4fMYJHY1FbWzVpRn8i9PQE3OeVl3LYuWOtWnkixgYqg/https/cdn.pixabay.com/photo/2018/03/03/06/26/girl-3194977_960_720.jpg?width=772&height=515);
+    background-size: 390px, 100px;;
+}
+.dark .contenedor{
+    background: #000000;
+}
+.dark .barra {
+    color: #000000;
+}
+.dark main{
+    background: black;
+}
+.dark .descripcion{
+    background: #000000;
+}
+.dark .barra{
+    text-decoration: aliceblue;
+    background: #000000;
+    border: 10px solid rgb(61, 114, 114);
+}

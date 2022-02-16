@@ -1,0 +1,118 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(70deg, rgb(222, 206, 228), #FFEADB);
+  }
+  header{
+    width: 100%;     
+    color: black;     
+    height: 270px;     
+    background: url('https://images-ext-2.discordapp.net/external/4fMYJHY1FbWzVpRn8i9PQE3OeVl3LYuWOtWnkixgYqg/https/cdn.pixabay.com/photo/2018/03/03/06/26/girl-3194977_960_720.jpg?width=772&height=515')no-repeat center center/cover;     
+    /* background: url('./show\ case.jpeg' ) no-repeat center center/cover;  */     
+    padding-bottom: 50px;     
+    display: flex;     
+    flex-direction: column;     
+    /* align-items: center;      */
+    justify-content: flex-end;
+    background-color: none;
+}
+  h1{
+    padding: 5px 0px 20px 20px;
+    margin-top: 600px;
+    color: black;
+    background: none;
+}
+
+h4{
+    margin: 10px 15px 15px 15px;
+    color: black;
+}
+
+.regiones{
+    background: white;
+    margin: 0px 15px 5px 15px;
+}
+
+.comuna{
+    background: white;
+    margin: 0px 15px 5px 15px;
+}
+
+.enlaces{
+    text-decoration-color:blue;
+     padding-top: 8px;
+}
+
+footer{
+    display: block;
+    background-image: linear-gradient(#698474,#B7EFCD,#96D1C7);
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 93%;
+}
+
+audio{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 0px 5px;
+    width: 210px;
+    height: 40px;
+    
+}
+
+.button{
+    background-color: none;
+}
+
+.fa-house {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    padding-left: 80px;
+    text-decoration: none;
+    background-image: linear-gradient(#698474,#B7EFCD,#96D1C7);
+}
+
+.fa-circle-info {
+    color: rgb(8, 8, 8);
+    font-size: 12px;
+    text-decoration: none;
+    background-image: linear-gradient(#698474,#B7EFCD,#96D1C7);
+}
+
+.fa-money-bill-1 {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    text-decoration: none;
+    background-image: linear-gradient(#698474,#B7EFCD,#96D1C7);
+}
+
+.fa-user-group {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    text-decoration: none;
+    background-image: linear-gradient(#698474,#B7EFCD,#96D1C7);
+}
+
+.fa-comment-dots {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    text-decoration: none;
+    background-image: linear-gradient(#698474,#B7EFCD,#96D1C7);
+}
+
+.iconos {
+    margin: 10px 10px 10px 10px;
+    padding-right: 70px;
+    text-decoration: none;
+    background-image: linear-gradient(#698474,#B7EFCD,#96D1C7);
+}
+a{
+    margin-left: 70px;
+    text-decoration: none;  
+    font-size: 20px;
+    background-image: linear-gradient(#698474,#B7EFCD,#96D1C7);
+}

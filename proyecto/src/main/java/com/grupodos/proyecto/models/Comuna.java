@@ -20,5 +20,8 @@ public class Comuna {
 
     @OneToMany(mappedBy="comuna", fetch = FetchType.EAGER)
     private List<Colegio> colegios;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "region_id")
+    private Region region;
 
 }
