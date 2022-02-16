@@ -101,7 +101,7 @@
 <footer>
     <footer>
         <div class="iconos">
-            <a href="index.html" <i class="fa-solid fa-house"> inicio</i></a>
+            <a href="/" <i class="fa-solid fa-house"> inicio</i></a>
             <a href="informacion/info.html" <i class="fa-solid fa-circle-info"> informacion</i></a>
             <a href="donaciones/donaciones.html" <i class="fa-regular fa-money-bill-1"> donaciones</i></a>
             <a href="sobre nosotros/index.html" <i class="fa-solid fa-user-group"> nosotros</i></a>

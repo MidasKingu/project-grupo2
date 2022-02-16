@@ -47,7 +47,7 @@
 
     <footer>
         <div class="iconos">
-            <a href="index.html" ><i class="fa-solid fa-house"> inicio</i></a>
+            <a href="/" ><i class="fa-solid fa-house"> inicio</i></a>
             <a href="busqueda/busqueda.html" ><i class="fa-solid fa-circle-info"> informacion</i></a>
             <a href="#" ><i class="fa-regular fa-money-bill-1"> donaciones</i></a>
             <a href="#" ><i class="fa-solid fa-user-group"> sobre nosotros</i></a>
