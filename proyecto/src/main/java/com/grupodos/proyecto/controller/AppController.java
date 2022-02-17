@@ -1,18 +1,19 @@
 package com.grupodos.proyecto.controller;
 
 import com.grupodos.proyecto.models.Colegio;
+import com.grupodos.proyecto.models.Comentario;
 import com.grupodos.proyecto.models.Comuna;
 import com.grupodos.proyecto.models.Region;
 import com.grupodos.proyecto.services.ColegioService;
+import com.grupodos.proyecto.services.ComentarioService;
 import com.grupodos.proyecto.services.ComunaService;
 import com.grupodos.proyecto.services.RegionService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @Controller
@@ -20,10 +21,12 @@ public class AppController {
     private final RegionService regionService;
     private final ComunaService comunaService;
     private final ColegioService colegioService;
-    public AppController(RegionService regionService,ComunaService comunaService,ColegioService colegioService){
+    private final ComentarioService comentarioService;
+    public AppController(RegionService regionService, ComunaService comunaService, ColegioService colegioService, ComentarioService comentarioService){
         this.comunaService = comunaService;
         this.regionService = regionService;
         this.colegioService = colegioService;
+        this.comentarioService = comentarioService;
     }
 
     @GetMapping("/")
@@ -58,16 +61,19 @@ public class AppController {
     }
     @GetMapping("/sobreNosotros")
     public String sobreNosotros(){
-        return "sobreNosotros.jsp"
+        return "sobreNosotros.jsp";
     }
     @GetMapping("/comentarios")
     public String comentarios(@ModelAttribute Comentario comentario){
-        return "comentarios.jsp"
+        return "comentarios.jsp";
     }
-    @PostMapping("/comentarios)
+    @PostMapping("/comentarios")
     public String enviarComentario(@Valid @ModelAttribute (name="comentario") Comentario comentario, BindingResult result){
-        return "redirect:/comentarios"
+        if(result.hasErrors()){
+            return "comentarios.jsp";
+        }
+        comentarioService.crearComentario(comentario);
+        return "redirect:/comentarios";
     }
-
 
 }
