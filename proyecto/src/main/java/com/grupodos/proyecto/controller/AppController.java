@@ -56,8 +56,8 @@ public class AppController {
     @GetMapping("/moreInfo/{id}")
     public String escuela(Model model, @PathVariable(name = "id")Long id){
         Colegio c = colegioService.buscarColegio(id);
-        model.addAttribute("colegio",c);
-        return "informacion.jsp";
+        model.addAttribute("c",c);
+        return "infoColegio.jsp";
     }
     @GetMapping("/sobreNosotros")
     public String sobreNosotros(){
@@ -74,6 +74,15 @@ public class AppController {
         }
         comentarioService.crearComentario(comentario);
         return "redirect:/comentarios";
+    }
+    @GetMapping("/informacion")
+    public String info(){
+        return "informacion.jsp";
+    }
+
+    @GetMapping("/donaciones")
+    public String donaciones(){
+        return "donaciones.jsp";
     }
 
 }
