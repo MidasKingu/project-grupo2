@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página card</title>
+    <title>Portal Especial Avanzando Contigo</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/dark.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
 
 <body class="">
 <header>
-    <h1><span class="textoborde">Portal Especial avanzando Contigo</span></h1>
+    <h1><span class="textoborde">Portal Especial Avanzando Contigo</span></h1>
 </header>
 <main>
     <hr>
@@ -45,7 +45,7 @@
             <div class="card__nombre">
                 <img src="/img/escuela.png.jfif" alt="">
                 <br></br>
-                <h2>Busqueda de Establecimientos</h2>
+                <h2>Búsqueda de Establecimientos</h2>
                 <p></p>
             </div>
             <hr class="hr1">
@@ -91,7 +91,7 @@
         </div>
     </section>
     <center><div class="barra">
-        <p>La educación especial está diseñada para satisfacer las necesidades particulares de cada niño. Es por eso que
+        <p>La educación especial está diseñada para satisfacer las necesidades particulares de cada niño/a. Es por eso que
             necesitan las herramientas para desarrollarse, crecer y aprender, sin importar sus capacidades,
             <strong>todos y cada uno de ellos</strong>, merecen recibir una educación de calidad.</p>
     </div></center>

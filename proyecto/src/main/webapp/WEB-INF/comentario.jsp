@@ -27,7 +27,7 @@
 
 <body>
 <header class="showcase">
-    <h1><span class="textoborde">AYUDANOS A MEJORAR</span></h1>
+    <h1><span class="textoborde">AYÚDANOS A MEJORAR</span></h1>
 </header>
 <hr>
 <div class="audio">
@@ -48,7 +48,7 @@
         <div class="container register-form">
             <div class="form">
                 <div class="note">
-                    <H2>DEJANOS TU COMENTARIO!!!</H2>
+                    <H2>DÉJANOS TU COMENTARIO!!!</H2>
                 </div>
 
                 <div class="form-content" style="background-color: white">
@@ -69,7 +69,7 @@
                                 </form:select>
                             </div>
                             <div class="form-group">
-                                <form:textarea path="contenido" placeholder="Email" class="hoja_comentario"></form:textarea>
+                                <form:textarea path="contenido" placeholder="Pon tu comentario aquí" class="hoja_comentario"></form:textarea>
                             </div>
                         </div>
                     </div>
@@ -83,11 +83,11 @@
 <br><br><br>
 <footer>
     <div class="iconos">
-        <a href="../index.html" <i class="fa-solid fa-house"> inicio</i></a>
-        <a href="../informacion/informaciones.html" <i class="fa-solid fa-circle-info"> informacion</i></a>
-        <a href="../donaciones/donaciones.html" <i class="fa-regular fa-money-bill-1"> donaciones</i></a>
-        <a href="../sobre nosotros/index.html" <i class="fa-solid fa-user-group"> nosotros</i></a>
-        <a href="../comentarios/index.html" <i class="fa-regular fa-comment-dots"> comentarios</i></a>
+        <a href="/" <i class="fa-solid fa-house"> inicio</i></a>
+        <a href="/informacion" <i class="fa-solid fa-circle-info"> informacion</i></a>
+        <a href="/donaciones" <i class="fa-regular fa-money-bill-1"> donaciones</i></a>
+        <a href="/sobreNosotros" <i class="fa-solid fa-user-group"> sobre nosotros</i></a>
+        <a href="/comentarios" <i class="fa-regular fa-comment-dots"> comentarios</i></a>
     </div>
 </footer>
 
