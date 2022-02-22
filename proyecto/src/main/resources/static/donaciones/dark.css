@@ -1,0 +1,39 @@
+#modo{
+    width: 40px;
+    font-size: 47px;
+    cursor: pointer;
+    background: none;
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+}
+.dark{
+    background: rgb(0, 0, 0);
+}
+.dark h1{
+    color: aliceblue;
+}
+.dark #modo{
+    color: aliceblue;
+}
+.dark .audio{
+    background: black;
+}
+#modo i{
+    background: none;
+}
+.dark h2{
+    color: white;
+}
+.dark p{
+    color: white;
+}
+.dark h3{
+    color: white;
+}
+.dark .barra1{
+    background: white;
+}
+.dark img{
+    background: white;
+}

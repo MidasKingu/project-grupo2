@@ -24,7 +24,8 @@ public class Comentario {
     @NotNull
     @Email
     private String email;
-
+    @NotBlank
+    private String tipoComentario;
     @NotBlank
     @NotNull
     @Size(min=1, max=250)

@@ -1,0 +1,250 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(70deg, rgb(222, 206, 228), #78DEC7);
+  }
+
+header{
+    width: 100%;     
+    color: black;     
+    height: 300px;     
+    background: url('https://images-ext-2.discordapp.net/external/4fMYJHY1FbWzVpRn8i9PQE3OeVl3LYuWOtWnkixgYqg/https/cdn.pixabay.com/photo/2018/03/03/06/26/girl-3194977_960_720.jpg?width=772&height=515')no-repeat center center/cover;     
+    /* background: url('./show\ case.jpeg' ) no-repeat center center/cover;  */     
+    padding-bottom: 50px;     
+    display: flex;     
+    flex-direction: column;     
+    /* align-items: center;      */
+    justify-content: flex-end;
+    text-align: center;
+}
+
+audio{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    width: 260px;
+    height: 50px;
+    background: none;
+}
+footer{
+    display: block;
+    background-image: linear-gradient(#698474,#B7EFCD,#96D1C7);
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 93%;
+}
+
+.fa-house {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    padding-left: 80px;
+    text-decoration: none;
+    
+}
+
+.fa-circle-info {
+    color: rgb(8, 8, 8);
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+.fa-money-bill-1 {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    text-decoration: none;
+   
+}
+
+.fa-user-group {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    text-decoration: none;
+   
+}
+
+.fa-comment-dots {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+.iconos {
+    margin: 10px 10px 10px 10px;
+    padding-right: 70px;
+    text-decoration: none;
+    background: none;
+}
+a{
+    margin-left: 60px;
+    text-decoration: none;  
+    font-size: 20px;
+    background: none;
+}
+i{
+    background: none;
+    padding: none;
+}
+.textoborde{
+    -webkit-text-fill-color: rgb(50, 205, 197);
+    -webkit-text-stroke: 2px black;
+    font-size: 60px;
+    background: none;
+}
+h1{
+    margin: 20px 10px 0px 40px;
+    background: none;
+    font-size: 45px;
+}
+div{
+    background: none;
+}
+.articulo{
+    text-align: center;
+    background: none;
+    width: 770px;
+    height: 200px;
+    margin: 20px;
+}
+p{
+    background: none;
+    text-align: left;
+    color: #444444;
+}
+h2{
+    background: none;
+    color: #698474;
+
+}
+body{
+    background: none;
+    height: 150vh;
+}
+main{
+    background: none;
+    display: inline-block;
+    width: 100%;
+}
+h3{
+    background: none;
+}
+.asd1{
+    width: 295px;
+    height: 340px;
+    margin: 20px;
+    background: none;
+    position: relative;
+    display: inline-block;
+}
+    .barra1{
+        width: 35px;
+        height: 140px;
+        background: #272431;
+        display: inline-block;
+    }
+    .titulobarra{
+        font-size: xx-large;
+        display: inline-block;
+        position: relative;
+        bottom: 165px;
+        color: #698474;
+    }
+    .subtitulobarra{
+        font-size: medium;
+        color: #444444;
+        position: relative;
+        bottom: 155px;
+        margin-left: 5px;
+    }
+    .subtitulobarra1{
+        font-size: x-large;
+        color: #698474;
+        position: relative;
+        bottom: 140px;
+        margin-left: 5px;
+    }
+.caja1{
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+}
+.caja3{
+    display: inline-block;
+    text-align: center;
+}
+.transferencia{
+    width: 600px;
+    height: 300px;
+    background: rgb(222, 206, 228);
+    border-radius: 20px;
+    display: inline-block;
+}
+.das{
+    background: none;
+    color: #698474;
+    font-size: xxx-large;
+}
+.transcuadro{
+    text-align: center;
+    font-size: xx-large;
+}
+ul{
+    background: none;
+    color: #444444;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+li{
+    background: none;
+    color: #444444;
+    text-align: left;
+}
+h4{
+    background: none;
+    color: #444444;
+    text-align: left;
+}
+.icono1{
+    background: none;
+    width: 175px;
+    display: inline-block;
+}
+.icono2{
+    background: none;
+    width: 175px;
+    display: inline-block;
+}
+.icono3{
+    background: none;
+    width: 175px;
+    display: inline-block;
+}
+img{
+    background: none;
+}
+.as1{
+    text-align: center;
+}
+.medio{
+    text-align: center;
+}
+@media only screen and (min-width: 769px) {
+    main {
+        margin-bottom: 3.6%;
+    }
+}
+.imagendonar{
+    float: right;
+    margin: 30px;
+
+}
+.inicio{
+    position: relative;
+    bottom: 50px;
+}

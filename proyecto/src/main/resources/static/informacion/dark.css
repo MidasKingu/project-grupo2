@@ -1,0 +1,144 @@
+#modo{
+    display: inline-block;
+    font-size: 41px;
+    cursor: pointer;
+    width: 0px;
+    background: #000000;
+    position: relative;
+    bottom: 10px;
+}
+.dark {
+    background: rgb(0, 0, 0);
+}
+.dark h1{
+    color: aliceblue;
+}
+.dark #modo{
+    color: aliceblue;
+}
+.dark .audio{
+    background: black;
+}
+#modo i{
+    background: none;
+}
+.dark h2{
+    color: white;
+}
+.dark p{
+    color: white;
+}
+.dark h3{
+    color: white;
+}
+.dark .barra1{
+    background: white;
+}
+.dark img{
+    background: white;
+}
+.dark .asdasd{
+    color: white
+}
+.dark body{
+    background: black;
+}
+.dark .subtitulo1{
+    background: black;
+}
+.dark .temas_educacion{
+    background: #3d683d;
+}
+.dark .temas_padres{
+    background: #3d683d;
+}
+.dark .temas_discapacidades{
+    background: #3d683d;
+}
+.dark .intro_uno {
+    background: #3d683d;
+}
+.dark .parrafo_uno{
+    background: #3d683d;
+}
+.dark .parrafo_dos{
+    background: #3d683d;
+}
+.dark .parrafo_tres{
+    background: #3d683d;
+}
+.dark .parrafo_cuatro{
+    background: #3d683d;
+}
+.dark .parrafo_cinco{
+    background: #3d683d;
+}
+.dark .parrafo_seis{
+    background: #3d683d;
+}
+.dark .parrafo_siete{
+    background: #3d683d;
+}
+.dark .parrafo_ocho{
+    background: #3d683d;
+}
+.dark .discapacidad_auditiva{
+    background: #3d683d;
+}
+.dark .discapacidad_visual{
+    background: #3d683d;
+}
+.dark .discapacidad_intelectual{
+    background: #3d683d;
+}
+.dark .parrafo_pie{
+    background: #3d683d;
+}
+
+
+
+.dark .subtitulo_uno {
+    background: #552e4a;
+}
+.dark .subtitulo_dos{
+    background: #552e4a;
+}
+.dark .subtitulo_tres{
+    background: #552e4a;
+}
+.dark .subtitulo_cuatro{
+    background: #552e4a;
+}
+.dark .disc_auditiva{
+    background: #552e4a;
+}
+.dark .disc_visual{
+    background: #552e4a;
+}
+.dark .disc_intelectual{
+    background: #552e4a;
+}
+.dark .subtitulo_cinco{
+    background: #552e4a;
+}
+.dark .subtitulo_seis{
+    background: #552e4a;
+}
+.dark .subtitulo_siete{
+    background: #552e4a;
+}
+.dark .subtitulo_ocho{
+    background: #552e4a;
+}
+.dark .subtitulo_pie{
+    background: #552e4a;
+}
+.dark .titulo_temas{
+    background: #552e4a;
+}
+.dark .instruccion_temas{
+    background: #552e4a;
+}
+.dark .fija{
+    background: #552e4a;
+}

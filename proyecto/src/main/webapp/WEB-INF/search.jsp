@@ -21,57 +21,57 @@
 
     <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header class="showcase">
-        <h1><span class="textoborde">BUSQUEDA DE ESTABLECIMIENTOS</span></h1>
-    </header>
-    <div class="audio">
-        <audio controls>
-            <source src="/busquedaNuevo/audio.ogg" type="audio/ogg">
-            <source src="/busquedaNuevo/audio.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-        <div class="modo" id="modo">
-            <i class="fas fa-toggle-on"></i>
-        </div>
+<body class="">
+<header class="showcase">
+    <h1><span class="textoborde">BUSQUEDA DE ESTABLECIMIENTOS</span></h1>
+</header>
+<div class="audio">
+    <audio controls>
+        <source src="/busquedaNuevo/audio.ogg" type="audio/ogg">
+        <source src="/busquedaNuevo/audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="modo" id="modo">
+        <i class="fas fa-toggle-on"></i>
     </div>
-    <h4>Por Regiones:</h4>
-    <form action="/escuelas" method="get" >
-       <label path="#"></label>
-        <p>
-            <select class="regiones" name="regionId" onchange="busqueda()" id="regionId">
-                <option value="#">Seleccione...</option>
-                <c:forEach items="${regiones}" var="region">
-                    <option value="<c:out value="${region.id}"/>"><c:out value="${region.nombre}"/></option>
-                </c:forEach>
-            </select>
-        </p>
-        <h4>Por Comunas:</h4>
-        <p>
-            <select class="comuna" name="comunaId" >
-                <option value="#">Seleccione..</option>
-                <c:forEach var="com" items="${comunas}">
-                    <option value="<c:out value="${com.id}"/>" ><c:out value="${com.nombre}"/></option>
-                </c:forEach>
-            </select>
-        </p>
-        <input style="margin-top:10px" type="submit" value="Buscar">
-    </form>
+</div>
+<h4>Por Regiones:</h4>
+<form action="/escuelas" method="get" >
+<select class="regiones" name="regionId" onchange="busqueda()" id="regionId">
+    <option value="#">Seleccione..</option>
+    <c:forEach items="${regiones}" var="region">
+        <option value="<c:out value="${region.id}"/>"><c:out value="${region.nombre}"/></option>
+    </c:forEach>
+</select>
 
-    <footer>
-        <div class="iconos">
-            <a href="/" <i class="fa-solid fa-house"> inicio</i></a>
-            <a href="../informacion/informaciones.html" <i class="fa-solid fa-circle-info"> informacion</i></a>
-            <a href="../donaciones/donaciones.html" <i class="fa-regular fa-money-bill-1"> donaciones</i></a>
-            <a href="../sobre nosotros/index.html" <i class="fa-solid fa-user-group"> nosotros</i></a>
-            <a href="../comentarios/index.html" <i class="fa-regular fa-comment-dots"> comentarios</i></a>
-        </div>
-    </footer>
-    <script>
-        function busqueda(){
-            window.location.href="/busqueda?regionId="+document.getElementById("regionId").value;
-        }
-    </script>
+<h4>Seleccione Comuna:</h4>
+<select class="comuna" name="comunaId" >
+    <c:forEach var="com" items="${comunas}">
+        <option value="<c:out value="${com.id}"/>" ><c:out value="${com.nombre}"/></option>
+    </c:forEach>
+    <br>
+</select>
+<br/>
+<input type="submit" value="Buscar">
+</form>
+<footer>
+    <div class="iconos">
+        <a href="/" <i class="fa-solid fa-house"> inicio</i></a>
+        <a href="/informacion" <i class="fa-solid fa-circle-info"> informacion</i></a>
+        <a href="/donaciones" <i class="fa-regular fa-money-bill-1"> donaciones</i></a>
+        <a href="/sobreNosotros" <i class="fa-solid fa-user-group"> sobre nosotros</i></a>
+        <a href="/comentarios" <i class="fa-regular fa-comment-dots"> comentarios</i></a>
+    </div>
+</footer>
+<script>
+    function busqueda(){
+        window.location.href="/busqueda?regionId="+document.getElementById("regionId").value;
+    }
+
+</script>
+
+<script src="/busquedaNuevo/main.js"></script>
 </body>
+</html>
 
 </html>

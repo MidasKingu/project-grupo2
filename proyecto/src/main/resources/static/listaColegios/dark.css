@@ -1,0 +1,46 @@
+#modo{
+    display: inline-block;
+    font-size: 41px;
+    cursor: pointer;
+    width: 0px;
+    background: #000000;
+    position: relative;
+    bottom: 10px;
+    background: none;
+}
+.dark{
+    background: black;
+}
+.dark .btn_1{
+    color: aliceblue;
+}
+.dark p{
+    color: aliceblue;
+}
+.dark #modo{
+    color: aliceblue;
+}
+.dark .audio{
+    background: black;
+}
+.dark body{
+    background: black;
+}
+.dark .boton_1{
+    background: black;
+}
+.dark .card{
+    background: #000000;
+}
+.dark .descripcion{
+    color: rgb(255, 255, 255);
+}
+.dark .card__perfil{
+    background: rgb(15, 39, 46);
+    box-shadow: 1px 1px 5px rgb(240, 240, 241);
+    border: solid rgba(255, 255, 255, 0) 2px;
+    border-radius: 10px;
+}
+.dark h2{
+    color: aliceblue;
+}

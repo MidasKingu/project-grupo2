@@ -1,0 +1,212 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background: linear-gradient(70deg, rgb(222, 206, 228), #78DEC7);
+}
+header{
+    width: 100%;     
+    color: black;     
+    height: 300px;     
+    background: url('https://images-ext-2.discordapp.net/external/4fMYJHY1FbWzVpRn8i9PQE3OeVl3LYuWOtWnkixgYqg/https/cdn.pixabay.com/photo/2018/03/03/06/26/girl-3194977_960_720.jpg?width=772&height=515')no-repeat center center/cover;     
+    /* background: url('./show\ case.jpeg' ) no-repeat center center/cover;  */     
+    padding-bottom: 50px;     
+    display: flex;     
+    flex-direction: column;     
+    /* align-items: center;      */
+    justify-content: flex-end;
+    text-align: center;
+}
+
+audio{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    width: 260px;
+    height: 50px;
+}
+
+h1{
+    margin: 20px 10px 0px 40px;
+    background: none;
+    font-size: 45px;
+}
+
+h4{
+    margin: 10px 10px 10px 10px;
+    background: none;
+}
+
+h5{
+    margin: 10px 10px 10px 10px;
+}
+
+footer{
+    display: block;
+    background-image: linear-gradient(#698474,#B7EFCD,#96D1C7);
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 93%;
+}
+
+.fa-house {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    padding-left: 80px;
+    text-decoration: none;
+    
+}
+
+.fa-circle-info {
+    color: rgb(8, 8, 8);
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+.fa-money-bill-1 {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    text-decoration: none;
+   
+}
+
+.fa-user-group {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    text-decoration: none;
+   
+}
+
+.fa-comment-dots {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+.iconos {
+    margin: 10px 10px 10px 10px;
+    padding-right: 70px;
+    text-decoration: none;
+    background: none;
+}
+a{
+    margin-left: 60px;
+    text-decoration: none;  
+    font-size: 20px;
+    background: none;
+    display: inline-block;
+}
+
+strong{
+    font-size: large;
+    background: none;
+}
+p{
+    margin: 10px 10px 10px 10px;
+    background: none;
+}
+#ContenedorPrincipal{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 10px 10px 3px 10px;
+    background: none;
+    width: 800px;
+} 
+.imagenes{
+    background: none;
+    margin: 20px;
+}
+.imagen{
+    width: 18%;
+    margin: 0px 0px 0px 13px;
+    background: url(LaFlorida.jpg);
+    background: none;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}
+i{
+    background: none;
+    padding: none;
+}
+.textoborde{
+    -webkit-text-fill-color: rgb(50, 205, 197);
+    -webkit-text-stroke: 2px black;
+    font-size: 60px;
+    background: none;
+}
+@media only screen and (min-width: 769px) {
+    main {
+        margin-bottom: 3.6%;
+    }
+}
+.carrusel {
+    float: left;
+    gap: 10px;
+    justify-content: start;
+    margin: 50px;
+  }
+  
+  .carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 510px;
+    scroll-behavior: smooth;
+  }
+  
+  .carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+  }
+  
+  .carrusel-fotos img {
+    background: black;
+    border: 4px solid black;
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  .carrusel-menu {
+    display: none;
+  }
+  
+  @media screen and (min-width: 500px) {
+    .carrusel-fotos {
+      overflow: hidden;
+    }
+  
+    .carrusel-fotos img {
+      width: 500px;
+      height: 400px;
+    }
+    .carrusel-menu {
+      display: block;
+      text-align: center;
+    }
+    .carrusel-menu img {
+      box-sizing: border-box;
+      width: 50px;
+      height: 40px;
+      border: 10px solid black;
+    }
+    .carrusel-menu img:hover {
+      border: none;
+    }
+  }
+  li{
+      display: inline-block;
+  }
+  .img3{
+      margin: 0;
+  }

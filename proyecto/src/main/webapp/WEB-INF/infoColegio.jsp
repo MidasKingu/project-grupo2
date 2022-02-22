@@ -80,7 +80,7 @@
 
     <p><strong>email/ correo electrónico:</strong> <c:out value="${c.email}"/></p>
 
-
+    <div class="mapouter col"><div class="gmap_canvas"><iframe width="100%" height="220" id="gmap_canvas" src="https://maps.google.com/maps?q=${c.direccion.replace(" ","%20")}%20${c.comuna.nombre.replace(" ","%20")}&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org/%22%3E</a><br><style>.mapouter{position:relative;text-align:right;height:300px;width:100%;}</style><a href="https://www.embedgooglemap.net/%22%3E</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:100%;}</style></div></div>
 </div>
 <br><br><br><br><br>
 

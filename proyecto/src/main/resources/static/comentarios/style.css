@@ -1,0 +1,171 @@
+body{
+    background: linear-gradient(70deg, rgb(222, 206, 228), #78DEC7);
+}
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.showcase {
+    width: 100%;
+    color: black;
+    height: 230px;
+    background: url('niña.png.jpg')no-repeat center center/cover; 
+    /* background: url('./show\ case.jpeg' ) no-repeat center center/cover;  */
+    padding-bottom: 50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; 
+}
+.textoborde{
+    -webkit-text-fill-color: rgb(50, 205, 197);
+    -webkit-text-stroke: 2px black;
+    font-size: 60px;
+    background: none;
+
+}
+h1{
+    font-size: 55px;
+    /* border:1px solid orange; */
+    text-align: center;
+    color: #0F00FF;
+    margin-bottom: 100px;
+    position: relative;
+    height: 1px;
+}
+h2{
+    text-align: center;
+    color: #0F00FF;
+}
+.formulario{
+    /* border: 1px solid red; */
+    padding: 3px;
+    padding-bottom: 20px;
+}
+.dato_nombre, .dato_email{
+    color: blue;
+    font-size: 25px;
+    margin-right: 3px;
+    background-color: transparent;
+}
+.cuadro_nombre{
+    font-size: 15px;
+    width: 250px;
+    margin-right: 3px;
+}
+.subtitulo{
+    /* border: 1px solid blue; */
+    color: #0F00FF;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.cuadro_email{
+    font-size: 15px;
+    width: 350px;
+    margin-right: 3px;
+}
+.tipo_comentario{
+    color: #03045E;
+    padding: 3px 10px 3px 10px;
+    font-size: 15px;
+    background-color: #FFEADB;
+    border-radius: 20px;
+}
+.hoja_comentario{
+    font-size:20px;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 350px;
+    max-height: 350px;
+    margin-top: 10px;
+    background-color: #FFEADB;
+}
+.boton_enviar{
+    font-size: 20px;
+    padding: 20px 10px 20px 10px;
+    background-color: #FFEADB;
+    color: #03045E;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.boton_enviar:hover{
+    opacity: .8;
+}
+audio{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    width: 260px;
+    height: 50px;
+}
+footer{
+    display: block;
+    background-image: linear-gradient(#698474,#B7EFCD,#96D1C7);
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 93%;
+}
+
+.fa-house {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    padding-left: 80px;
+    text-decoration: none;
+    
+}
+
+.fa-circle-info {
+    color: rgb(8, 8, 8);
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+.fa-money-bill-1 {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    text-decoration: none;
+   
+}
+
+.fa-user-group {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    text-decoration: none;
+   
+}
+
+.fa-comment-dots {
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+.iconos {
+    margin: 10px 10px 10px 10px;
+    padding-right: 70px;
+    text-decoration: none;
+    background: none;
+}
+a{
+    margin-left: 60px;
+    text-decoration: none;  
+    font-size: 20px;
+    background: none;
+}
+i{
+    background: none;
+    padding: none;
+}
+@media only screen and (min-width: 769px) {
+    main {
+        margin-bottom: 3.6%;
+    }
+}

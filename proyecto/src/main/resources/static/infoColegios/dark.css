@@ -1,0 +1,43 @@
+#modo{
+    display: inline-block;
+    font-size: 41px;
+    cursor: pointer;
+    width: 0px;
+    background: #000000;
+    position: relative;
+    bottom: 10px;
+}
+.dark #modo{
+    color: aliceblue;
+}
+.dark{
+    background: black;
+}
+.dark h1{
+    color: aliceblue;
+}
+.dark h4{
+    color: aliceblue;
+}
+.dark #modo{
+    color: aliceblue;
+}
+.dark strong{
+    color: aliceblue;
+}
+.dark p{
+    color: aliceblue;
+}
+.dark .audio{
+    background: black;
+}
+.dark .carrusel-menu img{
+    border: 10px solid white;
+}
+.dark .carrusel-menu img:hover {
+    border: none;
+}
+.dark .carrusel-fotos img{
+    background-color: aliceblue;
+    border: 4px solid white;
+}

@@ -22,93 +22,92 @@
 </head>
 
 <body class="">
-    <header>
-        <h1><span class="textoborde">Portal Especial avanzando Contigo</span></h1>
-    </header>
-    <main>
-        <hr>
-        <p class="descripcion">"No se trata de tener derecho a ser iguales, si no de tener igual derecho a ser diferentes"
-        </p>
-        <hr>
-        <div class="contenedor">
-            <div class="modo" id="modo">
-                <i class="fas fa-toggle-on"></i>
+<header>
+    <h1><span class="textoborde">Portal Especial avanzando Contigo</span></h1>
+</header>
+<main>
+    <hr>
+    <p class="descripcion">"No se trata de tener derecho a ser iguales, si no de tener igual derecho a ser diferentes"
+    </p>
+    <hr>
+    <div class="audio">
+        <audio controls>
+            <source src="audio.ogg" type="audio/ogg">
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="modo" id="modo">
+            <i class="fas fa-toggle-on"></i>
+        </div>
+    </div>
+    <section class="card">
+        <div class="card__perfil">
+            <div class="card__nombre">
+                <img src="/img/escuela.png.jfif" alt="">
+                <br></br>
+                <h2>Busqueda de Establecimientos</h2>
+                <p></p>
             </div>
-            <div class="audio">
-                <audio controls>
-                    <source src="audio.ogg" type="audio/ogg">
-                    <source src="audio.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
+            <hr class="hr1">
+            <div class="card__descripcion">
+                <p></p>
+            </div>
+            <hr class="hr1">
+            <div class="card__button">
+                <a class="enlace" href="/busqueda">Saber más</a>
             </div>
         </div>
-        <section class="card">
-            <div class="card__perfil">
-                <div class="card__nombre">
-                    <img src="/img/escuela.jfif" alt="">
-                    <br></br>
-                    <h2>Busqueda de Establecimientos</h2>
-                    <p></p>
-                </div>
-                <hr class="hr1">
-                <div class="card__descripcion">
-                    <p></p>
-                </div>
-                <hr class="hr1">
-                <div class="card__button">
-                    <a class="enlace" href="/busqueda">Saber más</a>
-                </div>
+        <div class="card__perfil">
+            <div class="card__nombre">
+                <img src="/img/juegos.png.jfif" alt="">
+                <br></br>
+                <h2>Juegos educativos</h2>
+                <p></p>
             </div>
-            <div class="card__perfil">
-                <div class="card__nombre">
-                    <img src="/img/juegos.jfif" alt="">
-                    <br></br>
-                    <h2>Juegos educativos</h2>
-                    <p></p>
-                </div>
-                <hr class="hr1">
-                <div class="card__descripcion">
-                    <p></p>
-                </div>
-                <hr class="hr1">
-                <div class="card__button">
-                    <a class="enlace" target="_blank" href="https://arbolabc.com">Jugar</a>
-                </div>
+            <hr class="hr1">
+            <div class="card__descripcion">
+                <p></p>
             </div>
-            <div class="card__perfil">
-                <div class="card__nombre">
-                    <img src="/img/video.png" alt="">
-                    <br></br>
-                    <h2>Videos educativos</h2>
-                    <p></p>
-                </div>
-                <hr class="hr1">
-                <div class="card__descripcion">
-                    <p></p>
-                </div>
-                <hr class="hr1">
-                <div class="card__button">
-                    <a class="enlace" href="videos/videos.html">Ver videos</a>
-                </div>
+            <hr class="hr1">
+            <div class="card__button">
+                <a class="enlace" target="_blank" href="https://arbolabc.com">Jugar</a>
             </div>
-        </section>
-        <center><div class="barra">
-            <p>La educación especial está diseñada para satisfacer las necesidades particulares de cada niño. Es por eso que
-                necesitan las herramientas para desarrollarse, crecer y aprender, sin importar sus capacidades,
-                <strong>todos y cada uno de ellos</strong>, merecen recibir una educación de calidad.</p>
-        </div></center>
-    </main>
+        </div>
+        <div class="card__perfil">
+            <div class="card__nombre">
+                <img src="/img/video.png.png" alt="">
+                <br></br>
+                <h2>Videos educativos</h2>
+                <p></p>
+            </div>
+            <hr class="hr1">
+            <div class="card__descripcion">
+                <p></p>
+            </div>
+            <hr class="hr1">
+            <div class="card__button">
+                <a class="enlace" href="/videos">Ver videos</a>
+            </div>
+        </div>
+    </section>
+    <center><div class="barra">
+        <p>La educación especial está diseñada para satisfacer las necesidades particulares de cada niño. Es por eso que
+            necesitan las herramientas para desarrollarse, crecer y aprender, sin importar sus capacidades,
+            <strong>todos y cada uno de ellos</strong>, merecen recibir una educación de calidad.</p>
+    </div></center>
+</main>
+<footer>
     <footer>
         <div class="iconos">
-            <a href="/"><i class="fa-solid fa-house"> inicio</i></a>
-            <a href="/informacion"><i class="fa-solid fa-circle-info"> informacion</i></a>
-            <a href="/donaciones"><i class="fa-regular fa-money-bill-1"> donaciones</i></a>
-            <a href="/sobreNosotros"><i class="fa-solid fa-user-group"> sobre nosotros</i></a>
-            <a href="/comentarios"><i class="fa-regular fa-comment-dots"> comentarios</i></a>
+            <a href="/" <i class="fa-solid fa-house"> inicio</i></a>
+            <a href="/informacion" <i class="fa-solid fa-circle-info"> informacion</i></a>
+            <a href="/donaciones" <i class="fa-regular fa-money-bill-1"> donaciones</i></a>
+            <a href="/sobreNosotros" <i class="fa-solid fa-user-group"> sobre nosotros</i></a>
+            <a href="/comentarios" <i class="fa-regular fa-comment-dots"> comentarios</i></a>
         </div>
     </footer>
 
 
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>

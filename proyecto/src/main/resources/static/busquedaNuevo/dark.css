@@ -1,0 +1,27 @@
+#modo{
+    display: inline-block;
+    font-size: 41px;
+    cursor: pointer;
+    width: 0px;
+    background: #000000;
+    position: relative;
+    bottom: 10px;
+}
+.dark{
+    background: black;
+}
+.dark h1{
+    color: aliceblue;
+}
+.dark h4{
+    color: aliceblue;
+}
+.dark #modo{
+    color: aliceblue;
+}
+.dark .audio{
+    background: black;
+}
+#modo i{
+    background: none;
+}

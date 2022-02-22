@@ -1,0 +1,36 @@
+#modo{
+    display: inline-block;
+    font-size: 41px;
+    cursor: pointer;
+    width: 0px;
+    background: #000000;
+    position: relative;
+    bottom: 10px;
+}
+.dark #modo{
+    color: aliceblue;
+}
+.dark{
+    background: black;
+}
+.dark .nombre_danny{
+    color: aliceblue;
+}
+.dark .nombre_janis{
+    color: aliceblue;
+}
+.dark .nombre_gabi{
+    color: aliceblue;
+}
+.dark .nombre_ismael{
+    color: aliceblue;
+}
+.dark .nombre_ignacio{
+    color: aliceblue;
+}
+.dark .nombre_daniel{
+    color: aliceblue;
+}
+.dark .nombre_jorge{
+    color: aliceblue;
+}

@@ -1,18 +1,15 @@
 package com.grupodos.proyecto.controller;
 
-import com.grupodos.proyecto.models.Colegio;
-import com.grupodos.proyecto.models.Comentario;
-import com.grupodos.proyecto.models.Comuna;
-import com.grupodos.proyecto.models.Region;
-import com.grupodos.proyecto.services.ColegioService;
-import com.grupodos.proyecto.services.ComentarioService;
-import com.grupodos.proyecto.services.ComunaService;
-import com.grupodos.proyecto.services.RegionService;
+import com.grupodos.proyecto.models.*;
+import com.grupodos.proyecto.services.*;
+import com.grupodos.proyecto.validator.AdminValidator;
+import org.apache.catalina.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 import java.util.List;
 
@@ -22,11 +19,15 @@ public class AppController {
     private final ComunaService comunaService;
     private final ColegioService colegioService;
     private final ComentarioService comentarioService;
-    public AppController(RegionService regionService, ComunaService comunaService, ColegioService colegioService, ComentarioService comentarioService){
+    private final AdminValidator adminValidator;
+    private final AdminService adminService;
+    public AppController(RegionService regionService, ComunaService comunaService, ColegioService colegioService, ComentarioService comentarioService, AdminValidator adminValidator, AdminService adminService){
         this.comunaService = comunaService;
         this.regionService = regionService;
         this.colegioService = colegioService;
         this.comentarioService = comentarioService;
+        this.adminValidator = adminValidator;
+        this.adminService = adminService;
     }
 
     @GetMapping("/")
@@ -65,12 +66,12 @@ public class AppController {
     }
     @GetMapping("/comentarios")
     public String comentarios(@ModelAttribute Comentario comentario){
-        return "comentarios.jsp";
+        return "comentario.jsp";
     }
     @PostMapping("/comentarios")
     public String enviarComentario(@Valid @ModelAttribute (name="comentario") Comentario comentario, BindingResult result){
         if(result.hasErrors()){
-            return "comentarios.jsp";
+            return "comentario.jsp";
         }
         comentarioService.crearComentario(comentario);
         return "redirect:/comentarios";
@@ -84,5 +85,35 @@ public class AppController {
     public String donaciones(){
         return "donaciones.jsp";
     }
-
+    @GetMapping("/adminReg")
+    public String regPage(@ModelAttribute("user")UserAdmin user){
+        return "registration.jsp";
+    }
+    @PostMapping("/adminReg")
+    public String registerUser(@Valid @ModelAttribute("user")UserAdmin user,BindingResult result){
+        if(result.hasErrors()){
+            return "registration.jsp";
+        }
+        adminService.registerUser(user);
+        return "redirect:/login";
+    }
+    @GetMapping("/login")
+    public String paginLogin(){
+        return "login.jsp";
+    }
+    @PostMapping("/login")
+    public String login(@RequestParam("email")String email, @RequestParam("password")String password, HttpSession sesion,Model model) {
+        if (adminService.authenticateUser(email, password)) {
+            UserAdmin u = adminService.findByEmail(email);
+            sesion.setAttribute("UserId", u.getId());
+            return "redirect:/";
+        } else {
+            model.addAttribute("error", "Autenticacion incorrecta,Intente nuevamente");
+            return "login.jsp";
+        }
+    }
+    @GetMapping("/videos")
+    public String videos(){
+        return "videos.jsp";
+    }
 }
