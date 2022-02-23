@@ -44,6 +44,9 @@ header{
     position: relative;
     color: #750550;
 } */
+body{
+    height: 130vh;
+}
 h1::after,h1::before{
     content: " ";
     position: absolute;
@@ -73,25 +76,29 @@ h1::after{
     height: 250px;
     border-left: 100px;
     float: left;
-    margin-left: 50px;
-    margin-right: 100px;
+    /* margin-left: 50px;
+    margin-right: 100px; */
+    margin-left: 200px;
     padding: 5px;
     border: 0.5px solid #0C1E7F;
     border-radius: 30px 0px 30px 0px;
+   
 }
 .danny{
     width: 140px;
     border-radius: 30px 0px 30px 0px;
+   
 }
 .nombre_danny{
     text-align: center;
+  
 }
 .img_janis{
     background-color: none;
     width: 160px;
     float: left;
-    margin-left: 50px;
-    margin-right: 100px;
+    margin-left: 150px;
+    /* margin-right: 100px; */
 }
 .janis{
     width: 160px;
@@ -104,8 +111,8 @@ h1::after{
     background-color: none;
     width: 180px;
     float: left;
-    margin-left: 50px;
-    margin-right: 100px;
+    margin-left: 150px;
+    /* margin-right: 100px; */
 }
 .gabi{
     width: 180px;
@@ -118,7 +125,7 @@ h1::after{
     background-color: none;
     width: 130px;
     float: left;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 .ismael{
     width: 130px;
@@ -146,8 +153,9 @@ h1::after{
     background-color: none;
     width: 140px;
     float: left;
-    margin-left: 130px;
-    margin-right: 130px;
+    margin-left: 250px;
+    margin-bottom: 80px;
+    /* margin-right: 130px; */
 }
 .nombre_daniel{
     text-align: center;
@@ -160,8 +168,9 @@ h1::after{
     background-color: none;
     width: 190px;
     float: left;
-    margin-left: 130px;
-    margin-right: 130px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+    /* margin-right: 130px; */
 }
 .ignacio{
     width: 190px;
@@ -174,8 +183,9 @@ h1::after{
     background-color: none;
     width: 190px;
     float: left;
-    margin-left: 130px;
-    margin-right: 40px;
+    margin-left: 250px;
+    margin-bottom: 80px;
+    /* margin-right: 40px; */
 }
 .jorge{
     width: 190px;
