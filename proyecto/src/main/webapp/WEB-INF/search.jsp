@@ -13,7 +13,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Busqueda de Establecimientos</title>
+    <title>Búsqueda de Establecimientos</title>
     <link rel="stylesheet" href="/busquedaNuevo/estilo.css">
     <link rel="stylesheet" href="/busquedaNuevo/dark.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
 </head>
 <body class="">
 <header class="showcase">
-    <h1><span class="textoborde">BUSQUEDA DE ESTABLECIMIENTOS</span></h1>
+    <h1><span class="textoborde">BÚSQUEDA DE ESTABLECIMIENTOS</span></h1>
 </header>
 <div class="audio">
     <audio controls>

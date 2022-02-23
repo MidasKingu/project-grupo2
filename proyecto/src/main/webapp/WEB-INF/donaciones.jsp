@@ -39,15 +39,15 @@
 <main>
     <div class="asd1">
         <div class="barra1"></div>
-        <h1 class="titulobarra">Tu Donacion Puede subvencionar nuestra pagina</h1>
+        <h1 class="titulobarra">Tu donación puede subvencionar nuestra página</h1>
         <h3 class="subtitulobarra">Podemos llegar más lejos gracias a personas como tú, que comparten el sueño de un
             país con sonrisas para todos y todas.</h3>
-        <h2 class="subtitulobarra1">Ayudanos a Mejorar la busqueda y asi apoyar a mas personas</h2>
+        <h2 class="subtitulobarra1">Ayúdanos a mejorar la búsqueda y asi apoyar a más personas</h2>
     </div>
     <div class="caja1">
         <div class="articulo">
             <h2 class="das">Donar a Portal Especial Avanzando Contigo</h2><br>
-            <p>¡Tu aporte, por pequeño que parezca, todo aporte cuenta!, aportando a Portal Especial Avanzando Contigo estás contribuyendo minimizar problemas que tienen muchas personas que hoy buscan un colegio o un establecimiento educacional.</p>
+            <p>¡Tu aporte, por pequeño que parezca, suma! Aportando a Portal Especial Avanzando Contigo estás contribuyendo a minimizar problemas que tienen muchas personas que hoy buscan un colegio o un establecimiento educacional.</p>
         </div>
         <img src="/donaciones/donar.png" alt="" width="400px">
     </div>
@@ -58,17 +58,17 @@
     <div class="medio">
         <div class="caja3">
             <div class="articulo">
-                <h2>¿Que sucedera con tu donacion?</h2><br>
+                <h2>¿Qué sucederá con tu donación?</h2><br>
                 <div class="icono1">
-                    <p class="as1">ayudas a mantener la pagina durante el tiempo</p>
+                    <p class="as1">Ayudas a mantener la página</p>
                     <img src="/donaciones/pc.png" alt="" width="30px">
                 </div>
                 <div class="icono2">
-                    <p class="as1">mejoras la vida de personas las cuales necesitan un establecimiento especial</p>
+                    <p class="as1">Mejoras la vida de personas que necesitan un establecimiento especial</p>
                     <img src="/donaciones/bus.png" alt="" width="30px">
                 </div>
                 <div class="icono3">
-                    <p class="as1">apoyas la expancion de la pagina a todas las regiones del país</p>
+                    <p class="as1">Apoyas la expansión de la página a todas las regiones del país</p>
                     <img src="/donaciones/expander.png" alt="" width="30px">
                 </div>
             </div>
@@ -77,13 +77,13 @@
     <div class="medio">
         <div class="transferencia">
             <h2 class="transcuadro">Datos Bancarios</h2>
-            <ul><h4>transferencia bancaria directamente en nuestra nuestra cuenta de banco</h4>
+            <ul><h4>Transferencia directamente en nuestra cuenta bancaria: </h4>
                 <br>
                 <li>Titular: Avanzando Contigo</li>
                 <li>Cuenta Corriente: 0-000-00-00000-0</li>
                 <li>Banco: Banco Estado</li>
                 <li>Rut: 00.000.000-0</li>
-                <li>Correo comprobante: AvanzandoContigo@gmail.com</li>
+                <li>Correo comprobante: avanzandocontigo@gmail.com</li>
             </ul>
         </div>
     </div>

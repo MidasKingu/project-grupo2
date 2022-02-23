@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Información</title>
   <link rel="stylesheet" href="/informacion/estilo_info.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
   />
@@ -35,21 +35,21 @@
 <a name="titulo_temas" id="titulo_temas"></a>
 <h2 class="titulo_temas">Temas </h2>
 <div class="instruccion_temas">
-  <p><strong>Desea leer sobre un tema en específico, pinche el que corresponda.</strong></p>
+  <p><strong>Si desea leer sobre un tema en específico, pinche el que corresponda.</strong></p>
 </div>
 <nav class="temas_pagina">
   <div class="temas_educacion">
-    <a class="asdasd" href="#subtitulo_uno"><li>EDUCACÓN ESPECIAL</a></li>
+    <a class="asdasd" href="#subtitulo_uno"><li>EDUCACIÓN ESPECIAL</a></li>
     <hr>
     <ul>
       <a class="asdasd" href="#subtitulo_dos"><li>¿QUIÉN PUEDE RECIBIR EDUCACIÓN ESPECIAL</a></li><hr>
-      <a class="asdasd" href="#subtitulo_tres"><li>¿CÓMO SABER SI UN NIÑO NECESITA EDUCACION ESPECIAL?</a></li><hr>
+      <a class="asdasd" href="#subtitulo_tres"><li>¿CÓMO SABER SI UN NIÑO NECESITA EDUCACIÓN ESPECIAL?</a></li><hr>
       <a class="asdasd" href="#subtitulo_cuatro"><li>¿QUÉ HACER EN PRIMER LUGAR SI EL PADRE, MADRE O TUTOR COMIENZA A SOSPECHAR QUE SU HIJO TIENE
-        DIFICULTADES ESPECIALES?</a></li><hr>
+        NECESIDADES ESPECIALES?</a></li><hr>
     </ul>
   </div>
   <div class="temas_discapacidades">
-    <a class="asdasd" href="#subtitulo_tipos"><li>ALGUNOS TIPOS DE DISCAPACIDADES</a></li><hr>
+    <a class="asdasd" href="#subtitulo_tipos"><li>ALGUNOS TIPOS DE DISCAPACIDAD</a></li><hr>
     <ul>
       <a class="asdasd" href="#disc_visual"><li>¿QUÉ ES LA DISCAPACIDAD VISUAL?</a></li><hr>
       <a class="asdasd" href="#disc_auditiva"><li>¿QUÉ ES LA DISCAPACIDAD AUDITIVA?</a></li><hr>
@@ -59,7 +59,7 @@
   <div class="temas_padres">
     <a class="asdasd" href="#subtitulo_cinco"><li>LA IMPORTANCIA DE LOS PADRES</a></li><hr>
     <ul>
-      <a class="asdasd" href="#subtitulo_seis"><li>LOS PADRES APORTAN INFORMACION VALIOSA</a></li><hr>
+      <a class="asdasd" href="#subtitulo_seis"><li>LOS PADRES APORTAN INFORMACIÓN VALIOSA</a></li><hr>
       <a class="asdasd" href="#subtitulo_siete"><li>LOS PADRES SON LOS MEJORES DEFENSORES DE SUS HIJOS</a></li><hr>
       <a class="asdasd" href="#subtitulo_ocho"><li>¿CÓMO TENER UN PAPEL MÁS ACTIVO?</a></li><hr>
       <a class="asdasd" href="#subtitulo_pie"><li>¿QUÉ ES EL PIE?</li></a><hr>
@@ -149,7 +149,7 @@
   <img class="foto_parr_tres" src="/informacion/imagen_3.jpg" alt="">
   <a name="subtitulo_cuatro" id="subtitulo_cuatro"></a>
   <h2 class="subtitulo_cuatro">¿QUÉ HACER EN PRIMER LUGAR SI EL PADRE, MADRE O TUTOR COMIENZA A SOSPECHAR QUE SU
-    HIJO TIENE DIFICULTADES ESPECIALES?</h2>
+    HIJO TIENE NECESIDADES ESPECIALES?</h2>
   <img class="foto_parr_cuatro" src="/informacion/imagen_4.jpg" alt="">
   <div class="parrafo_cuatro">
     <p>Con el médico de su hijo. Si su hijo tiene necesidades especiales que le dificultan el aprendizaje o
@@ -166,7 +166,7 @@
     </p>
   </div>
   <a name="subtitulo_tipos" id="subtitulo_tipos"></a>
-  <h2 class="subtitulo_tipos">ALGUNOS TIPOS DE DISCAPACIDADES</h2>
+  <h2 class="subtitulo_tipos">ALGUNOS TIPOS DE DISCAPACIDAD</h2>
   <a name="disc_visual" id="disc_visual"></a>
   <h2 class="disc_visual">¿QUÉ ES LA DISCAPACIDAD VISUAL?</h2>
   <div class="discapacidad_visual">
@@ -267,7 +267,7 @@
     <a href="/" <i class="fa-solid fa-house"> inicio</i></a>
     <a href="/informacion" <i class="fa-solid fa-circle-info"> informacion</i></a>
     <a href="/donaciones" <i class="fa-regular fa-money-bill-1"> donaciones</i></a>
-    <a href="../sobreNosotros" <i class="fa-solid fa-user-group">sobre nosotros</i></a>
+    <a href="/sobreNosotros" <i class="fa-solid fa-user-group">sobre nosotros</i></a>
     <a href="/comentarios" <i class="fa-regular fa-comment-dots"> comentarios</i></a>
   </div>
 </footer>
