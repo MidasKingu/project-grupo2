@@ -7,13 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Información</title>
-  <link rel="stylesheet" href="/informacion/estilo_info.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
   />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
   </style>
   <link rel="stylesheet" href="/informacion/dark.css">
+  <link rel="stylesheet" href="/informacion/estilo_informaciones.css">
 
   <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
 </head>
@@ -32,88 +33,72 @@
     <i class="fas fa-toggle-on"></i>
   </div>
 </div>
-<a name="titulo_temas" id="titulo_temas"></a>
-<h2 class="titulo_temas">Temas </h2>
-<div class="instruccion_temas">
-  <p><strong>Si desea leer sobre un tema en específico, pinche el que corresponda.</strong></p>
 </div>
-<nav class="temas_pagina">
-  <div class="temas_educacion">
-    <a class="asdasd" href="#subtitulo_uno"><li>EDUCACIÓN ESPECIAL</a></li>
-    <hr>
+<main>
+  <aside class="barra_lateral">
+    <a name="titulo_temas" id="titulo_temas"></a>
+    <h2 class="titulo_temas">Temas</h2>
     <ul>
+      <a class="asdasd" href="#subtitulo_uno"><li>EDUCACIÓN ESPECIAL</a></li>
       <a class="asdasd" href="#subtitulo_dos"><li>¿QUIÉN PUEDE RECIBIR EDUCACIÓN ESPECIAL</a></li><hr>
       <a class="asdasd" href="#subtitulo_tres"><li>¿CÓMO SABER SI UN NIÑO NECESITA EDUCACIÓN ESPECIAL?</a></li><hr>
       <a class="asdasd" href="#subtitulo_cuatro"><li>¿QUÉ HACER EN PRIMER LUGAR SI EL PADRE, MADRE O TUTOR COMIENZA A SOSPECHAR QUE SU HIJO TIENE
-        NECESIDADES ESPECIALES?</a></li><hr>
-    </ul>
-  </div>
-  <div class="temas_discapacidades">
-    <a class="asdasd" href="#subtitulo_tipos"><li>ALGUNOS TIPOS DE DISCAPACIDAD</a></li><hr>
-    <ul>
+        DIFICULTADES ESPECIALES?</a></li><hr>
       <a class="asdasd" href="#disc_visual"><li>¿QUÉ ES LA DISCAPACIDAD VISUAL?</a></li><hr>
       <a class="asdasd" href="#disc_auditiva"><li>¿QUÉ ES LA DISCAPACIDAD AUDITIVA?</a></li><hr>
       <a class="asdasd" href="#disc_intelectual"><li>¿QUÉ ES LA DISCAPACIDAD INTELECTUAL?</a></li><hr>
-    </ul>
-  </div>
-  <div class="temas_padres">
-    <a class="asdasd" href="#subtitulo_cinco"><li>LA IMPORTANCIA DE LOS PADRES</a></li><hr>
-    <ul>
       <a class="asdasd" href="#subtitulo_seis"><li>LOS PADRES APORTAN INFORMACIÓN VALIOSA</a></li><hr>
       <a class="asdasd" href="#subtitulo_siete"><li>LOS PADRES SON LOS MEJORES DEFENSORES DE SUS HIJOS</a></li><hr>
       <a class="asdasd" href="#subtitulo_ocho"><li>¿CÓMO TENER UN PAPEL MÁS ACTIVO?</a></li><hr>
       <a class="asdasd" href="#subtitulo_pie"><li>¿QUÉ ES EL PIE?</li></a><hr>
     </ul>
+  </aside>
+  <div class="info_parrafo1">
+    <a name="subtitulo_uno" id="subtitulo_uno"></a>
+    <h2 class="subtitulo_uno">EDUCACIÓN ESPECIAL</h2>
+    <p class="intro_uno">Seguramente has oído hablar sobre este tema en repetidas ocasiones. Pero ¿Realmente
+      sabes qué es la Educación Especial? No es momento de preocuparse, hoy te informaremos sobre todo lo que
+      tengas que saber, nada más y nada menos que en tu portal Especial Avanzando Contigo
+    </p>
+    <div class="parrafo_uno">
+      <p>Educación Especial, es una modalidad del sistema educativo que desarrolla su acción de manera transversal
+        en los distintos niveles educativos, tanto en los establecimientos de educación regular como en los
+        establecimientos de educación especial, proveyendo un conjunto de servicios, recursos humanos, recursos
+        técnicos, conocimientos especializados y ayudas, con el propósito de asegurar, de acuerdo a la normativa
+        vigente, aprendizajes de calidad a niños, niñas, jóvenes y adultos que presentan mayores necesidades de
+        apoyo (NEE), de manera que accedan, participen y progresen en el currículum nacional en igualdad de
+        condiciones. Así, en la actualidad, cerca de 500.000 estudiantes que presentan NEE reciben subvención de
+        educación especial, con la cual se espera responder a este gran desafío.</p>
+      <p>Educación Especial es un proceso interactivo donde los distintos tipos de individuos adquieren, asimilan
+        y comprenden de la manera correcta lo que se quiera impartir dependiendo el método de enseñanza y el
+        objetivo de este.</p>
+      <p>Normalmente, este proceso se trata de un momento de concientización intelectual y cultural con la
+        intención de desarrollar e inculcar los valores tanto morales como intelectuales en el individuo o
+        persona en cuestión. </p>
+      <p>Educación Especial es aquella destinada a alumnos con necesidades educativas especiales, ya sea por
+        sobredotación intelectual o bien por discapacidades psíquicas, físicas o sensoriales.</p>
+      <p>
+        Este tipo de educación comprende todas las actuaciones enfocadas a compensar dichas necesidades, en
+        centros ordinarios o en centros específicos Tradicionalmente, educación especial ha sido una educación
+        paralela a la ordinaria, pero en la actualidad se busca lo que los expertos denominan “inclusión”. Es
+        decir, que el niño que necesita una adaptación del currículo esté presente en el aula, como uno más. Que
+        este alumno quede integrado dentro de su clase. De este modo, educación especial lleva a cabo un
+        servicio de apoyo educativo general dentro de los procesos de enseñanza-aprendizaje. Busca lograr el
+        máximo desarrollo personal y social de estos alumnos con necesidades educativas especiales.</p>
+      <p>
+        Este método de enseñanza conocido como educación especial brinda de todos los medios técnicos y humanos
+        a todos aquellos que presenten cualquier tipo de discapacidad o dificultad a la hora de aprender.</p>
+    </div>
+    <a name="subtitulo_dos" id="subtitulo_dos"></a>
+    <h2 class="subtitulo_dos">¿QUIÉN PUEDE RECIBIR EDUCACIÓN ESPECIAL?</h2>
   </div>
-
-</nav>
-<main>
-  <a name="subtitulo_uno" id="subtitulo_uno"></a>
-  <h2 class="subtitulo_uno">EDUCACIÓN ESPECIAL</h2>
-  <p class="intro_uno">Seguramente has oído hablar sobre este tema en repetidas ocasiones pero, ¿Realmente
-    sabes qué es la Educación Especial?. No es momento de preocuparse, hoy te informaremos sobre todo lo que
-    tengas que saber, nada más y nada menos que en tu portal Especial Avanzando Contigo
-  </p>
-  <div class="parrafo_uno">
-    <p>Educación Especial, es una modalidad del sistema educativo que desarrolla su acción de manera transversal
-      en los distintos niveles educativos, tanto en los establecimientos de educación regular como en los
-      establecimientos de educación especial, proveyendo un conjunto de servicios, recursos humanos, recursos
-      técnicos, conocimientos especializados y ayudas, con el propósito de asegurar, de acuerdo a la normativa
-      vigente, aprendizajes de calidad a niños, niñas, jóvenes y adultos que presentan mayores necesidades de
-      apoyo (NEE), de manera que accedan, participen y progresen en el currículum nacional en igualdad de
-      condiciones. Así, en la actualidad, cerca de 500.000 estudiantes que presentan NEE reciben subvención de
-      educación especial, con la cual se espera responder a este gran desafío.</p>
-    <p>Educación Especial es un proceso interactivo donde los distintos tipos de individuos adquieren, asimilan
-      y comprenden de la manera correcta lo que se quiera impartir dependiendo el método de enseñanza y el
-      objetivo del mismo.</p>
-    <p>Normalmente este proceso se trata de un momento de concientización intelectual y cultural con la
-      intención de desarrollar e inculcar los valores tanto morales como intelectuales en el individuo o
-      persona en cuestión. </p>
-    <p>Educación Especial es aquella destinada a alumnos con necesidades educativas especiales, ya sea por
-      sobredotación intelectual o bien por discapacidades psíquicas, físicas o sensoriales.</p>
-    <p>
-      Este tipo de educación comprende todas las actuaciones enfocadas a compensar dichas necesidades, en
-      centros ordinarios o en centros específicos Tradicionalmente, educación especial ha sido una educación
-      paralela a la ordinaria, pero en la actualidad se busca lo que los expertos denominan “inclusión”. Es
-      decir, que el niño que necesita una adaptación del currículo esté presente en el aula, como uno más. Que
-      este alumno quede integrado dentro de su clase. De este modo, educación especial lleva a cabo un
-      servicio de apoyo educativo general dentro de los procesos de enseñanza-aprendizaje. Busca lograr el
-      máximo desarrollo personal y social de estos alumnos con necesidades educativas especiales.</p>
-    <p>
-      Este método de enseñanza conocido como educación especial brinda de todos los medios técnicos y humanos
-      a todos aquellos que presenten cualquier tipo de discapacidad o dificultad a la hora de aprender.</p>
-  </div>
-  <img class="foto_parr_uno" src="/informacion/fofo_1.jpeg" alt="">
-  <a name="subtitulo_dos" id="subtitulo_dos"></a>
-  <h2 class="subtitulo_dos">¿QUIÉN PUEDE RECIBIR EDUCACION ESPECIAL?</h2>
-
   <img class="foto_parr_dos" src="/informacion/imagen_2.jpg" alt="">
   <div class="parrafo_dos">
     <p>Niños con discapacidades son los adecuados para recibir servicios de educación especial y servicios
       relacionados cuando cumplen con la definición de un “niño con una discapacidad”. </p>
     <p>Esta definición está regulada por las leyes de cada país.</p>
     <p>En chile el ingreso de un estudiante a una Escuela Especial, es preciso realizar un proceso de
-      diagnóstico integral de acuerdo a lo establecido en el Decreto Supremo Nº 170, a partir del cual se
+      diagnóstico integral de acuerdo a lo establecido en el Decreto Supremo N.º 170, a partir del cual se
       identifica el diagnóstico del estudiante y las necesidades de apoyo que presenta. </p>
     <p>En el caso de ingreso a escuelas especiales de lenguaje, para niños o niñas que presenten Trastorno
       Específico del Lenguaje (TEL), los requisitos de ingreso son los siguientes:</p>
@@ -125,8 +110,8 @@
     <p>Para las escuelas Especiales con estudiantes que presentan discapacidad o NEE Permanentes, no hay edad
       mínima de ingreso, sino que dependerá de las características y necesidades de apoyo que defina el
       diagnóstico, y la oferta educativa de la escuela. La edad máxima son los 26 años </p>
-    <p>Adjuntamos el link que lo redireccionara para conocer más información acerca del Decreto Supremo N°170
-      piche aqui:
+    <p>Adjuntamos el link que lo redireccionara para conocer más información acerca del Decreto Supremo N.°170
+      piche aquí:
       <a
               href="https://www.bcn.cl/leychile/navegar?idNorma=1012570&idParte=">https://www.bcn.cl/leychile/navegar?idNorma=1012570&idParte=</a>
     </p>
@@ -149,7 +134,7 @@
   <img class="foto_parr_tres" src="/informacion/imagen_3.jpg" alt="">
   <a name="subtitulo_cuatro" id="subtitulo_cuatro"></a>
   <h2 class="subtitulo_cuatro">¿QUÉ HACER EN PRIMER LUGAR SI EL PADRE, MADRE O TUTOR COMIENZA A SOSPECHAR QUE SU
-    HIJO TIENE NECESIDADES ESPECIALES?</h2>
+    HIJO TIENE DIFICULTADES ESPECIALES?</h2>
   <img class="foto_parr_cuatro" src="/informacion/imagen_4.jpg" alt="">
   <div class="parrafo_cuatro">
     <p>Con el médico de su hijo. Si su hijo tiene necesidades especiales que le dificultan el aprendizaje o
@@ -166,7 +151,7 @@
     </p>
   </div>
   <a name="subtitulo_tipos" id="subtitulo_tipos"></a>
-  <h2 class="subtitulo_tipos">ALGUNOS TIPOS DE DISCAPACIDAD</h2>
+  <h2 class="subtitulo_tipos">ALGUNOS TIPOS DE DISCAPACIDADES</h2>
   <a name="disc_visual" id="disc_visual"></a>
   <h2 class="disc_visual">¿QUÉ ES LA DISCAPACIDAD VISUAL?</h2>
   <div class="discapacidad_visual">
@@ -235,7 +220,7 @@
         Observa los estilos de aprendizaje de tu hijo
         Mantén un seguimiento de la educación de tu hijo
         Ponte en contacto de manera regular con los profesionales que tratan a tu hijo diariamente
-        Siempre que tengas dudas, pregunta
+        Siempre que tengas dudas, pregunta.
       </p>
     </div>
     <div>
@@ -246,7 +231,7 @@
       </div>
     </div>
     <a name="subtitulo_pie" id="subtitulo_pie"></a>
-    <h2 class="subtitulo_pie">¿QUE ES EL PIE?</h2>
+    <h2 class="subtitulo_pie">¿QUÉ ES EL PIE?</h2>
     <div class="parrafo_pie">
       <p>El PIE (Programa de integración Escolar)es una estrategia inclusiva del sistema escolar, que tiene el
         propósito de contribuir al mejoramiento continuo de la calidad de la educación que se imparte en el
@@ -254,7 +239,7 @@
         logro de
         los objetivos de aprendizaje de todos y cada uno de los estudiantes, especialmente de aquellos que
         presentan
-        Necesidades Educativas Especiales (NEE), sean éstas de carácter permanente o transitoria. A través
+        Necesidades Educativas Especiales (NEE), sean estas de carácter permanente o transitoria. A través
         del PIE
         se ponen a disposición recursos humanos y materiales adicionales para proporcionar apoyos y
         equiparar
@@ -264,19 +249,17 @@
 </main>
 <footer>
   <div class="iconos">
-    <a href="/" <i class="fa-solid fa-house"> inicio</i></a>
+    <a href="/"> inicio</i></a>
     <a href="/informacion" <i class="fa-solid fa-circle-info"> informacion</i></a>
     <a href="/donaciones" <i class="fa-regular fa-money-bill-1"> donaciones</i></a>
-    <a href="/sobreNosotros" <i class="fa-solid fa-user-group">sobre nosotros</i></a>
+    <a href="/sobreNosotros" <i class="fa-solid fa-user-group"> sobre nosotros</i></a>
     <a href="/comentarios" <i class="fa-regular fa-comment-dots"> comentarios</i></a>
   </div>
 </footer>
-
-
 <div class="fija">
-  <a class="asdasd" href="#titulo_temas"><h3>VOLVER A <span class="retorno_temas">TEMAS</span></a></h3>
+  <a class="asdasd" href="#titulo_temas"><h3>VOLVER A TEMAS</a></h3>
 
-  <script src="/donaciones/main.js"></script>
+  <script src="/informacion/main.js"></script>
 </div>
 </body>
 </html>

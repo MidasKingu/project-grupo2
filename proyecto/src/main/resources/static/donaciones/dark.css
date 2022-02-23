@@ -1,11 +1,11 @@
 #modo{
-    width: 40px;
-    font-size: 47px;
-    cursor: pointer;
-    background: none;
     display: inline-block;
+    font-size: 41px;
+    cursor: pointer;
+    width: 0px;
+    background: #000000;
     position: relative;
-    bottom: 3px;
+    bottom: 10px;
 }
 .dark{
     background: rgb(0, 0, 0);

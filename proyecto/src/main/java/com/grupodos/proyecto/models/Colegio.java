@@ -7,6 +7,7 @@ import lombok.Data;
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 import java.util.List;
 
 @Entity
@@ -42,6 +43,7 @@ public class Colegio {
     private String enfasis_edu;
     private String programa_formacion;
     private String apoyo_aprendizaje;
+    @Size(max = 2000000)
     private String nee;
     private String programa_apoderados;
 
