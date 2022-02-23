@@ -37,7 +37,7 @@
     </div>
 </div>
 <form action="/escuelas" method="get" >
-    <div class="card__perfil" style="text-align: center">
+    <div class="card__perfil" style="display: inline-block" >
         <h4>Por Regiones:</h4>
         <select class="regiones" name="regionId" onchange="busqueda()" id="regionId">
             <option value="#">Seleccione..</option>
