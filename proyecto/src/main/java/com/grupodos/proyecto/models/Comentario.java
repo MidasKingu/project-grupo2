@@ -7,6 +7,8 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.time.LocalDate;
+import java.util.Date;
 
 @Entity
 @Table(name="comentarios")
@@ -30,4 +32,11 @@ public class Comentario {
     @NotNull
     @Size(min=1, max=250)
     private String contenido;
+
+    private Date createdAt;
+
+    @PrePersist
+    public void onCreate(){
+        this.createdAt = new Date();
+    }
 }

@@ -16,9 +16,9 @@
         <section class="card">
             <div class="card__perfil">
                 <div class="card__nombre">
-                    <img src="/img/escuela.png.jfif" alt="">
+                    <img src="/panel/icono comentario.png" alt="">
                     <br></br>
-                    <h2>Busqueda de Establecimientos</h2>
+                    <h2>Comentarios</h2>
                     <p></p>
                 </div>
                 <hr class="hr1">
@@ -27,14 +27,14 @@
                 </div>
                 <hr class="hr1">
                 <div class="card__button">
-                    <a class="enlace" href="/busqueda">Saber más</a>
+                    <a class="enlace" href="/listaComentarios">Ver</a>
                 </div>
             </div>
             <div class="card__perfil">
                 <div class="card__nombre">
                     <img src="/img/juegos.png.jfif" alt="">
                     <br></br>
-                    <h2>Juegos educativos</h2>
+                    <h2>Agregar Establecimientos</h2>
                     <p></p>
                 </div>
                 <hr class="hr1">
@@ -43,25 +43,10 @@
                 </div>
                 <hr class="hr1">
                 <div class="card__button">
-                    <a class="enlace" target="_blank" href="https://arbolabc.com">Jugar</a>
+                    <a class="enlace" target="_blank" href="/nuevoEstablecimiento">Agregar</a>
                 </div>
             </div>
-            <div class="card__perfil">
-                <div class="card__nombre">
-                    <img src="/img/video.png.png" alt="">
-                    <br></br>
-                    <h2>Videos educativos</h2>
-                    <p></p>
-                </div>
-                <hr class="hr1">
-                <div class="card__descripcion">
-                    <p></p>
-                </div>
-                <hr class="hr1">
-                <div class="card__button">
-                    <a class="enlace" href="/videos">Ver videos</a>
-                </div>
-            </div>
+
         </section>
     </div>
 

@@ -34,10 +34,11 @@
         <i class="fas fa-toggle-on"></i>
     </div>
 </div>
-<main>
-    <c:forEach items="${colegios}" var="c">
-        <section class="card">
-            <div class="card__perfil">
+<main >
+
+        <section class="card" >
+            <c:forEach items="${colegios}" var="c">
+            <div class="card__perfil" style="display: inline-block">
                 <div class="card__nombre">
                     <img src="https://th.bing.com/th/id/R.e7f5224c5fa88ddc9b506096f72ae7fb?rik=%2bql1MaLqtRcQEQ&pid=ImgRaw&r=0" alt="img">
                     <br></br>
@@ -58,8 +59,9 @@
                     <a class="enlace" href="/moreInfo/+<c:out value="${c.id}"/>">Saber más</a>
                 </div>
             </div>
+            </c:forEach>
         </section>
-    </c:forEach>
+
 </main>
 <footer>
     <div class="iconos">

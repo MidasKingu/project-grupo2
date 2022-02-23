@@ -120,4 +120,45 @@ public class AppController {
     public String panel(){
         return "panel.jsp";
     }
+    @GetMapping("/listaComentarios")
+    public String comentario(HttpSession sesion,Model model){
+        Long id = (Long) sesion.getAttribute("userId");
+        if(id==null){
+            return "redirect:/";
+        }
+        List<Comentario> c = comentarioService.listaComentarios();
+        model.addAttribute("comentarios",c);
+        return "listaComentario.jsp";
+    }
+    @GetMapping("/deleteComentario/{comentarioId}")
+    public String eliminarComentario( @PathVariable (name = "comentarioId")Long comentarioId,HttpSession sesion){
+        Long id = (Long) sesion.getAttribute("userId");
+        if(id==null){
+            return "redirect:/";
+        }
+        comentarioService.eliminarPorId(comentarioId);
+        return "redirect:/listaComentarios";
+    }
+    @GetMapping("/nuevoEstablecimiento")
+    public String cursoNuevo(@ModelAttribute("colegio")Colegio colegio,HttpSession sesion,Model model){
+        Long id = (Long) sesion.getAttribute("userId");
+        if(id==null){
+            return "redirect:/";
+        }
+        List<Comuna> c = comunaService.findAll();
+        model.addAttribute("comunas",c);
+        return "nuevoColegio.jsp";
+    }
+    @PostMapping("/nuevoEstablecimiento")
+    public String crearColegio(@Valid @ModelAttribute("colegio")Colegio colegio,BindingResult result,HttpSession sesion){
+        Long id = (Long) sesion.getAttribute("userId");
+        if(id==null){
+            return "redirect:/";
+        }
+        if(result.hasErrors()){
+            return "nuevoColegio.jsp";
+        }
+        colegioService.crearColegio(colegio);
+        return "redirect:/panelAdmin";
+    }
 }

@@ -107,7 +107,7 @@
             <a href="/comentarios" <i class="fa-regular fa-comment-dots"> comentarios</i></a>
 
             <c:if test="${userId != null}">
-                <a href="/comentarios" <i class="fa-regular fa-comment-dots"> panel admin</i></a>
+                <a href="/panelAdmin" <i class="fa-regular fa-comment-dots"> panel admin</i></a>
             </c:if>
         </div>
     </footer>

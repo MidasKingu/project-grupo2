@@ -22,4 +22,7 @@ public class ColegioService {
     public Colegio buscarColegio(Long id){
         return colegioRepository.findById(id).orElseThrow();
     }
+    public Colegio crearColegio(Colegio c){
+        return colegioRepository.save(c);
+    }
 }

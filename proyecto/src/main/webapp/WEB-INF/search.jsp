@@ -16,6 +16,7 @@
     <title>Búsqueda de Establecimientos</title>
     <link rel="stylesheet" href="/busquedaNuevo/estilo.css">
     <link rel="stylesheet" href="/busquedaNuevo/dark.css">
+    <link rel="stylesheet" href="/listaColegios/styleEscuelaLaFlorida.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
@@ -35,24 +36,28 @@
         <i class="fas fa-toggle-on"></i>
     </div>
 </div>
-<h4>Por Regiones:</h4>
 <form action="/escuelas" method="get" >
-<select class="regiones" name="regionId" onchange="busqueda()" id="regionId">
-    <option value="#">Seleccione..</option>
-    <c:forEach items="${regiones}" var="region">
-        <option value="<c:out value="${region.id}"/>"><c:out value="${region.nombre}"/></option>
-    </c:forEach>
-</select>
+    <div class="card__perfil" style="text-align: center">
+        <h4>Por Regiones:</h4>
+        <select class="regiones" name="regionId" onchange="busqueda()" id="regionId">
+            <option value="#">Seleccione..</option>
+            <c:forEach items="${regiones}" var="region">
+                <option value="<c:out value="${region.id}"/>"><c:out value="${region.nombre}"/></option>
+            </c:forEach>
+        </select>
 
-<h4>Seleccione Comuna:</h4>
-<select class="comuna" name="comunaId" >
-    <c:forEach var="com" items="${comunas}">
-        <option value="<c:out value="${com.id}"/>" ><c:out value="${com.nombre}"/></option>
-    </c:forEach>
-    <br>
-</select>
-<br/>
-<input type="submit" value="Buscar">
+        <h4>Seleccione Comuna:</h4>
+        <select class="comuna" name="comunaId" >
+            <c:forEach var="com" items="${comunas}">
+                <option value="<c:out value="${com.id}"/>" ><c:out value="${com.nombre}"/></option>
+            </c:forEach>
+            <br>
+        </select>
+        <br/>
+        <div class="card__button">
+            <input type="submit" value="Buscar">
+        </div>
+    </div>
 </form>
 <footer>
     <div class="iconos">
