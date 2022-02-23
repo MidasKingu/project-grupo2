@@ -105,7 +105,7 @@ public class AppController {
     public String login(@RequestParam("email")String email, @RequestParam("password")String password, HttpSession sesion,Model model) {
         if (adminService.authenticateUser(email, password)) {
             UserAdmin u = adminService.findByEmail(email);
-            sesion.setAttribute("UserId", u.getId());
+            sesion.setAttribute("userId", u.getId());
             return "redirect:/";
         } else {
             model.addAttribute("error", "Autenticacion incorrecta,Intente nuevamente");
@@ -115,5 +115,9 @@ public class AppController {
     @GetMapping("/videos")
     public String videos(){
         return "videos.jsp";
+    }
+    @GetMapping("/panelAdmin")
+    public String panel(){
+        return "panel.jsp";
     }
 }

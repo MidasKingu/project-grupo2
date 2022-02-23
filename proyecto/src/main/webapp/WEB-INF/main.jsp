@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -104,6 +105,10 @@
             <a href="/donaciones" <i class="fa-regular fa-money-bill-1"> donaciones</i></a>
             <a href="/sobreNosotros" <i class="fa-solid fa-user-group"> sobre nosotros</i></a>
             <a href="/comentarios" <i class="fa-regular fa-comment-dots"> comentarios</i></a>
+
+            <c:if test="${userId != null}">
+                <a href="/comentarios" <i class="fa-regular fa-comment-dots"> panel admin</i></a>
+            </c:if>
         </div>
     </footer>
 
