@@ -97,7 +97,4 @@
         <a href="/comentarios"><i class="fa-regular fa-comment-dots"> comentarios</i></a>
     </div>
 </footer>
-
-<script src="/donaciones/main.js"></script>
-</body>
 </html>
