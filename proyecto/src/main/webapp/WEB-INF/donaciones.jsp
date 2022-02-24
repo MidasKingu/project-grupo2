@@ -29,7 +29,7 @@
 <div class="audio">
     <audio controls>
         <source src="audio.ogg" type="audio/ogg">
-        <source src="audio.mp3" type="audio/mpeg">
+        <source src="/donaciones/DonacionesAudio.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
     <div class="modo" id="modo">
