@@ -97,7 +97,7 @@
         <a href="/comentarios"><i class="fa-regular fa-comment-dots"> comentarios</i></a>
     </div>
 </footer>
-
+<div style="height: 180px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.84,16.30 C213.03,144.58 341.13,-58.69 499.72,67.61 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #D885A3;"></path></svg></div>
 <script src="/infoColegios/main.js"></script>
 </body>
 </html>

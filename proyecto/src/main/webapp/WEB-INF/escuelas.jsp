@@ -22,7 +22,7 @@
 
 <body>
 <header class="showcase">
-    <h1> <span class="textoborde">ESTABLECIMIENTOS EN LA FLORIDA</span></h1>
+    <h1 style="text-transform: uppercase"> <span class="textoborde">ESTABLECIMIENTOS EN ${comuna.nombre}</span></h1>
 </header>
 <div class="audio">
     <audio controls>
