@@ -1,7 +1,6 @@
 package com.grupodos.proyecto.services;
 
 import com.grupodos.proyecto.models.Colegio;
-import com.grupodos.proyecto.models.Comuna;
 import com.grupodos.proyecto.repositories.ColegioRepository;
 import com.grupodos.proyecto.repositories.ComunaRepository;
 import org.springframework.stereotype.Service;

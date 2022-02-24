@@ -1,7 +1,6 @@
 package com.grupodos.proyecto.validator;
 
 import com.grupodos.proyecto.models.UserAdmin;
-import lombok.Data;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;

@@ -6,7 +6,6 @@ import com.grupodos.proyecto.repositories.ComunaRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class ComunaService {
